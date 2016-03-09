@@ -1,0 +1,13 @@
+reglas:
+
+Copie al directorio el archivo c-main.c y le cambie el #include. Luego modifique las directivas del .h. En el cpp-sum.cpp, puse la funcion add_sum como extern.
+Para compilar use los siguientes comandos:
+
+	gcc c-main.c -c (compilo el .c)
+	gcc cpp-sum.cpp -c (compilo el .cpp)
+	gcc c-main.o cpp-sum.o -o c-main.e (linkeo y genero ,e)
+
+Resultado: sum=10000
+
+
+

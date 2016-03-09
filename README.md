@@ -1,10 +1,11 @@
-# Compiled languages into Python
+# Compiled Languages
 
-En este hands-on vamos a practicar cómo llamar a una librería
-nuestra desde python. En la carpeta `src/` tienen dos archivos de C.
-Para completar este ejercicio tienen que hacer los siguientes pasos:
+Este repositorio tiene tres carpetas distintas, cada una
+mostrando una característica distinta de los lenguajes compilados:
 
-1. Compilar ambos archivos como objetos separados
-2. Construir una librería dinámica que tenga ambos objetos
-3. Escribir un script en python que pruebe **todas** las funciones
-de la librería
+- **compilador**: Un archivo en C, compilado pasando por (casi) todos los pasos intermedios
+- **simbolos**: (casi) Todos los tipos de símbolos que tienen los objetos
+- **multilenguaje**: Crear ejecutables que permitan código en distintos lenguajes
+
+Cada carpeta tiene un README que muestra, si hay alguno, los ejercicios
+que hay que hacer
